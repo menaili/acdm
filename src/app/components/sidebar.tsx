@@ -1,8 +1,9 @@
 import Image from "next/image";
 
 const Sidebar: React.FC = () => {
+
     return(
-        <div className="flex flex-col justify-around items-center fixed bg-blue-950 h-screen w-16 p-1">
+        <div className="flex flex-col justify-around items-center fixed bg-main h-screen w-16 p-1">
             <div>
                 <Image
                     src={'/statics/logo/mortarboard.png'}
@@ -13,7 +14,7 @@ const Sidebar: React.FC = () => {
             </div>
 
             <div className="flex flex-col justify-between">
-                <div className="my-1 p-1 rounded-lg hover:bg-sky-800">
+                <div className="my-1 p-1 rounded-lg hover:bg-hover">
                     <Image
                         src={'/statics/menu/app.png'}
                         width={40}
@@ -23,7 +24,7 @@ const Sidebar: React.FC = () => {
                     />
                 </div>
 
-                <div className="my-1 p-1 rounded-lg hover:bg-sky-800">
+                <div className="my-1 p-1 rounded-lg hover:bg-hover">
                     <Image
                         src={'/statics/menu/app.png'}
                         width={40}
@@ -33,7 +34,7 @@ const Sidebar: React.FC = () => {
                     />
                 </div>
 
-                <div className="my-1 p-1 rounded-lg hover:bg-sky-800">
+                <div className="my-1 p-1 rounded-lg hover:bg-hover">
                     <Image
                         src={'/statics/menu/app.png'}
                         width={40}
@@ -43,7 +44,7 @@ const Sidebar: React.FC = () => {
                     />
                 </div>
 
-                <div className="my-1 p-1 rounded-lg hover:bg-sky-800">
+                <div className="my-1 p-1 rounded-lg hover:bg-hover">
                     <Image
                         src={'/statics/menu/app.png'}
                         width={40}
@@ -53,7 +54,7 @@ const Sidebar: React.FC = () => {
                     />
                 </div>
 
-                <div className="my-1 p-1 rounded-lg hover:bg-sky-800">
+                <div className="my-1 p-1 rounded-lg hover:bg-hover">
                     <Image
                         src={'/statics/menu/app.png'}
                         width={40}
@@ -63,7 +64,7 @@ const Sidebar: React.FC = () => {
                     />
                 </div>
 
-                <div className="my-1 p-1 rounded-lg hover:bg-sky-800">
+                <div className="my-1 p-1 rounded-lg hover:bg-hover">
                     <Image
                         src={'/statics/menu/app.png'}
                         width={40}
@@ -73,7 +74,7 @@ const Sidebar: React.FC = () => {
                     />
                 </div>
 
-                <div className="my-1 p-1 rounded-lg hover:bg-sky-800">
+                <div className="my-1 p-1 rounded-lg hover:bg-hover">
                     <Image
                         src={'/statics/menu/app.png'}
                         width={40}
