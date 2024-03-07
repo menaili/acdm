@@ -11,6 +11,7 @@ const Mostcourses: React.FC = () => {
         <div className="flex flex-col justify-between h-auto">
             <div className="flex flex-row justify-between items-center my-4">
                 <h1 className="text-5xl">Most courses</h1>
+                <button className="text-sm bg-clickable px-2 py-1 rounded-lg">ENROLL NOW</button>
             </div>
 
             <div className="flex flex-row justify-around w-auto my-4">
@@ -42,7 +43,37 @@ const Mostcourses: React.FC = () => {
 
                     <div className="">
                         <p className="text-gray">Progress 16/30</p>
-                        <Progress percent={70} strokeColor={twoColors} />
+                        <Progress percent={47} strokeColor={twoColors} />
+                    </div>
+                </div>
+
+                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover mx-2 p-5">
+                    <div className="flex flex-row justify-between">
+                        <div>
+                            <Image 
+                                src={"/courses/Figma.png"}
+                                alt={"Course logo"}
+                                width={80}
+                                height={80}
+                            />
+                        </div>
+                            
+                        <div>
+                            <Image 
+                                src={"/statics/starGold.png"}
+                                alt={"favorit"}
+                                width={16}
+                                height={16}
+                            />
+                        </div>
+                    </div>
+                    <div className="my-4">
+                        <h1 className="text-3xl">Figma</h1>
+                    </div>
+
+                    <div className="">
+                        <p className="text-gray">Progress 16/30</p>
+                        <Progress percent={100} strokeColor={twoColors} />
                     </div>
                 </div>
 
@@ -76,7 +107,6 @@ const Mostcourses: React.FC = () => {
                         <Progress percent={70} strokeColor={twoColors} />
                     </div>
                 </div>
-
                 <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover mx-2 p-5">
                     <div className="flex flex-row justify-between">
                         <div>
@@ -104,37 +134,7 @@ const Mostcourses: React.FC = () => {
 
                     <div className="">
                         <p className="text-gray">Progress 16/30</p>
-                        <Progress percent={70} strokeColor={twoColors} />
-                    </div>
-                </div>
-                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover mx-2 p-5">
-                    <div className="flex flex-row justify-between">
-                        <div>
-                            <Image 
-                                src={"/courses/Figma.png"}
-                                alt={"Course logo"}
-                                width={80}
-                                height={80}
-                            />
-                        </div>
-                            
-                        <div>
-                            <Image 
-                                src={"/statics/star.png"}
-                                alt={"favorit"}
-                                width={16}
-                                height={16}
-                                style={{ filter: 'brightness(0) invert(1)' }}
-                            />
-                        </div>
-                    </div>
-                    <div className="my-4">
-                        <h1 className="text-3xl">Figma</h1>
-                    </div>
-
-                    <div className="">
-                        <p className="text-gray">Progress 16/30</p>
-                        <Progress percent={70} strokeColor={twoColors} />
+                        <Progress percent={91} strokeColor={twoColors} />
                     </div>
                 </div>
                 
