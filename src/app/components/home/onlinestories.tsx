@@ -7,7 +7,7 @@ const Onlinestories: React.FC = () => {
         <div>
             {/* line chart */}
             <h1 className="text-2xl capitalize ">Instructor Online</h1>
-            <div className="w-[500px] h-auto flex mx-auto my-auto">
+            <div className="w-full h-auto flex mx-auto my-auto">
                 <div className='flex flex-row gap-2 p-4 rounded-xl  w-full h-fit my-auto  shadow-xl'>
                     <div className="rounded-full bg-gradient-to-r from-blue-500 to-green-500 w-fit p-[3px]">
                         <Image

@@ -15,10 +15,12 @@ const config: Config = {
       },
     },
     colors: {
+      'white': '#fff',
       'main': '#23273d',
       'second' : '#191b2e',
       'hover': '#343957',
       'gray': 'gray',
+      'red': 'red',
       'clickable' : '#6486f4',
       'blue-500': '#108ee9',
       'green-500': '#87d068'

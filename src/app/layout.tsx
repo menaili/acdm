@@ -3,6 +3,7 @@ import { Inter, Kanit, Manrope } from "next/font/google";
 import "./globals.css";
 import Sidebar from "./components/sidebar";
 import { AntdRegistry } from "@ant-design/nextjs-registry";
+import Topbar from "./components/topbar";
 
 const manrope = Manrope({subsets: ["latin"]});
 
@@ -19,8 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={manrope.className}>
+      <AntdRegistry>
         <Sidebar />
-        <AntdRegistry>{children}</AntdRegistry>
+        <Topbar />
+        {children}
+      </AntdRegistry>
       </body>
     </html>
   );
