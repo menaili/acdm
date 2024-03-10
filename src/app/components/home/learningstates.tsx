@@ -46,7 +46,7 @@ const LearningStates: React.FC = () => {
         <>
         <div>
             <h1 className="text-2xl capitalize ">line Chart</h1>
-            <div className="w-[500px] h-auto flex mx-auto my-auto">
+            <div className="w-auto h-auto flex mx-auto my-auto">
                 <div className=' pt-0 rounded-xl  w-full h-fit my-auto  shadow-xl'>
                     <canvas id='myChart'></canvas>
                 </div>
