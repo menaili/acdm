@@ -14,9 +14,9 @@ const Mostcourses: React.FC = () => {
                 <button className="text-sm bg-clickable px-2 py-1 rounded-lg">ENROLL NOW</button>
             </div>
 
-            <div className="flex flex-row justify-around w-auto my-4">
+            <div className="flex flex-row justify-around gap-6 w-auto my-4">
                  
-                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-125 mx-2 p-5 transition duration-300 ease-in-out">
+                <div className="w-60 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-110 mx-2 px-5 py-9 transition duration-300 ease-in-out">
                     <div className="flex flex-row justify-between">
                         <div>
                             <Image 
@@ -47,7 +47,7 @@ const Mostcourses: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-125 mx-2 p-5 transition duration-300 ease-in-out">
+                <div className="w-60 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-110 mx-2 px-5 py-9 transition duration-300 ease-in-out">
                     <div className="flex flex-row justify-between">
                         <div>
                             <Image 
@@ -77,7 +77,7 @@ const Mostcourses: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-125 mx-2 p-5 transition duration-300 ease-in-out">
+                <div className="w-60 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-110 mx-2 px-5 py-9 transition duration-300 ease-in-out">
                     <div className="flex flex-row justify-between">
                         <div>
                             <Image 
@@ -107,38 +107,7 @@ const Mostcourses: React.FC = () => {
                         <Progress percent={70} strokeColor={twoColors} />
                     </div>
                 </div>
-                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-125 mx-2 p-5 transition duration-300 ease-in-out">
-                    <div className="flex flex-row justify-between">
-                        <div>
-                            <Image 
-                                src={"/courses/Figma.png"}
-                                alt={"Course logo"}
-                                width={80}
-                                height={80}
-                            />
-                        </div>
-                            
-                        <div>
-                            <Image 
-                                src={"/statics/star.png"}
-                                alt={"favorit"}
-                                width={16}
-                                height={16}
-                                style={{ filter: 'brightness(0) invert(1)' }}
-                            />
-                        </div>
-                    </div>
-                    <div className="my-4">
-                        <h1 className="text-3xl">Figma</h1>
-                    </div>
-
-                    <div className="">
-                        <p className="text-gray">Progress 16/30</p>
-                        <Progress percent={91} strokeColor={twoColors} />
-                    </div>
-                </div>
                 
-
             </div>
         </div>
     )

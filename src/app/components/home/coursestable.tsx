@@ -32,7 +32,7 @@ const Coursestable: React.FC = () => {
                                     <li className="text-gray text-base">learn basics</li>
                                 </ul>
                             </td>
-                            <td>14/30 (46%)</td>
+                            <td><span className="text-gray">14</span>/30 (46%)</td>
                             <td className="text-clickable">Doctor Champ</td>
                         </tr>
 
@@ -50,7 +50,7 @@ const Coursestable: React.FC = () => {
                                     <li className="text-gray text-base">learn basics</li>
                                 </ul>
                             </td>
-                            <td>14/30 (46%)</td>
+                            <td><span className="text-gray">14</span>/30 (46%)</td>
                             <td className="text-clickable">Doctor Champ</td>
                         </tr>
 
@@ -68,7 +68,7 @@ const Coursestable: React.FC = () => {
                                     <li className="text-gray text-base">learn basics</li>
                                 </ul>
                             </td>
-                            <td>14/30 (46%)</td>
+                            <td><span className="text-gray">14</span>/30 (46%)</td>
                             <td className="text-clickable">Doctor Champ</td>
                         </tr>
                     </tbody>
