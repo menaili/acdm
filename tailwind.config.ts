@@ -16,6 +16,7 @@ const config: Config = {
     },
     colors: {
       'main': '#23273d',
+      'second' : '#191b2e',
       'hover': '#343957',
       'gray': 'gray',
       'clickable' : '#6486f4'

@@ -16,7 +16,7 @@ const Mostcourses: React.FC = () => {
 
             <div className="flex flex-row justify-around w-auto my-4">
                  
-                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover mx-2 p-5">
+                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-125 mx-2 p-5 transition duration-300 ease-in-out">
                     <div className="flex flex-row justify-between">
                         <div>
                             <Image 
@@ -47,7 +47,7 @@ const Mostcourses: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover mx-2 p-5">
+                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-125 mx-2 p-5 transition duration-300 ease-in-out">
                     <div className="flex flex-row justify-between">
                         <div>
                             <Image 
@@ -77,7 +77,7 @@ const Mostcourses: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover mx-2 p-5">
+                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-125 mx-2 p-5 transition duration-300 ease-in-out">
                     <div className="flex flex-row justify-between">
                         <div>
                             <Image 
@@ -107,7 +107,7 @@ const Mostcourses: React.FC = () => {
                         <Progress percent={70} strokeColor={twoColors} />
                     </div>
                 </div>
-                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover mx-2 p-5">
+                <div className="w-52 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-125 mx-2 p-5 transition duration-300 ease-in-out">
                     <div className="flex flex-row justify-between">
                         <div>
                             <Image 
