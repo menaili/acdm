@@ -14,7 +14,7 @@ const Mostcourses: React.FC = () => {
                 <button className="text-sm bg-clickable px-2 py-1 rounded-lg">ENROLL NOW</button>
             </div>
 
-            <div className="flex flex-row justify-around gap-6 w-auto my-4">
+            <div className="flex flex-row justify-around gap-4 w-auto my-4">
                  
                 <div className="w-60 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-110 mx-2 px-5 py-9 transition duration-300 ease-in-out">
                     <div className="flex flex-row justify-between">
