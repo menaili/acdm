@@ -5,7 +5,7 @@ const Coursestable: React.FC = () => {
     return(
         <div>
             <div className="my-4">
-                <h2 className="text-2xl">Courses progress</h2>
+                <h2 className="text-2xl capitalize">Courses progress</h2>
             </div>
 
             <div className="bg-main p-4 my-4 rounded-2xl">
