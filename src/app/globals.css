@@ -44,6 +44,10 @@ input.ant-input.ant-input-lg.css-dev-only-do-not-override-1uweeqc::placeholder {
   color: gray !important;
 }
 
+input.ant-input.css-dev-only-do-not-override-1uweeqc.ant-input-outlined::placeholder {
+  color: gray !important;
+}
+
 .swiper-wrapper {
   width: 460px !important;
 }

@@ -15,13 +15,17 @@ const Messages: React.FC = () => {
 
             <div className="flex flex-col gap-1">
                 <div className="flex items-center gap-3 w-auto bg-hover hover:bg-hover transition duration-300 ease-in-out rounded-md mx-1 px-5 py-2">
-                    <Image
-                        src={'/profile/portrait-man-laughing.jpg'}
-                        width={40}
-                        height={40}
-                        alt={"profile"}    
-                        className="rounded-full"            
-                    />
+                    <div className="relative">
+                        <Image
+                            src={'/profile/portrait-man-laughing.jpg'}
+                            width={40}
+                            height={40}
+                            alt={"profile"}    
+                            className="rounded-full"            
+                        />
+                    <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full"></div>
+
+                    </div>
                     <ul className="list-none">
                         <li>Doctor champ</li>
                         <li className="text-gray text-base w-[230px] overflow-hidden whitespace-nowrap overflow-ellipsis">Come to learn to gother somes tricks of devops</li>
@@ -29,13 +33,16 @@ const Messages: React.FC = () => {
                 </div>
 
                 <div className="flex items-center gap-3 w-auto hover:bg-hover transition duration-300 ease-in-out rounded-md mx-1 px-5 py-2">
-                    <Image
-                        src={'/profile/portrait-man-laughing.jpg'}
-                        width={40}
-                        height={40}
-                        alt={"profile"}    
-                        className="rounded-full"            
-                    />
+                    <div className="relative">
+                        <Image
+                            src={'/profile/portrait-man-laughing.jpg'}
+                            width={40}
+                            height={40}
+                            alt={"profile"}    
+                            className="rounded-full"            
+                        />
+                        <div className="absolute bottom-0 right-0 w-3 h-3 bg-green-500 rounded-full"></div>
+                    </div>
                     <ul className="list-none">
                         <li>Doctor champ</li>
                         <li className="text-gray text-base w-[230px] overflow-hidden whitespace-nowrap overflow-ellipsis">Come to learn to gother somes tricks of devops</li>
@@ -43,13 +50,15 @@ const Messages: React.FC = () => {
                 </div>
 
                 <div className="flex items-center gap-3 w-auto hover:bg-hover transition duration-300 ease-in-out rounded-md mx-1 px-5 py-2">
-                    <Image
-                        src={'/profile/portrait-man-laughing.jpg'}
-                        width={40}
-                        height={40}
-                        alt={"profile"}    
-                        className="rounded-full"            
-                    />
+                    <div className="relative">
+                        <Image
+                            src={'/profile/portrait-man-laughing.jpg'}
+                            width={40}
+                            height={40}
+                            alt={"profile"}    
+                            className="rounded-full"            
+                        />
+                    </div>
                     <ul className="list-none">
                         <li>Doctor champ</li>
                         <li className="text-gray text-base w-[230px] overflow-hidden whitespace-nowrap overflow-ellipsis">Come to learn to gother somes tricks of devops</li>
@@ -57,13 +66,15 @@ const Messages: React.FC = () => {
                 </div>
 
                 <div className="flex items-center gap-3 w-auto hover:bg-hover transition duration-300 ease-in-out rounded-md mx-1 px-5 py-2">
-                    <Image
-                        src={'/profile/portrait-man-laughing.jpg'}
-                        width={40}
-                        height={40}
-                        alt={"profile"}    
-                        className="rounded-full"            
-                    />
+                    <div className="relative">
+                        <Image
+                            src={'/profile/portrait-man-laughing.jpg'}
+                            width={40}
+                            height={40}
+                            alt={"profile"}    
+                            className="rounded-full"            
+                        />
+                    </div>
                     <ul className="list-none">
                         <li>Doctor champ</li>
                         <li className="text-gray text-base w-[230px] overflow-hidden whitespace-nowrap overflow-ellipsis">Come to learn to gother somes tricks of devops</li>

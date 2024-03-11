@@ -23,7 +23,8 @@ const config: Config = {
       'red': 'red',
       'clickable' : '#6486f4',
       'blue-500': '#108ee9',
-      'green-500': '#87d068'
+      'green-500': '#87d068',
+      'green': 'green'
     },
   },
   plugins: [],

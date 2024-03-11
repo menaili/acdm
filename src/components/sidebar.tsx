@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Sidebar: React.FC = () => {
 
@@ -15,24 +16,28 @@ const Sidebar: React.FC = () => {
 
             <div className="flex flex-col justify-between gap-3">
                 <div className="my-1 p-1 rounded-lg hover:bg-hover">
-                    <Image
-                        src={'/statics/menu/app.png'}
-                        width={30}
-                        height={30} 
-                        alt={"Logo"}
-                        style={{ filter: 'brightness(0) invert(1)' }} 
-                    />
+                    <Link href={'/'}>
+                        <Image
+                            src={'/statics/menu/app.png'}
+                            width={30}
+                            height={30} 
+                            alt={"Logo"}
+                            style={{ filter: 'brightness(0) invert(1)' }} 
+                        />
+                    </Link>
                 </div>
 
                 <div className="my-1 p-1 rounded-lg hover:bg-hover relative">
-                    <Image
-                        src={'/statics/menu/message.png'}
-                        width={30}
-                        height={30} 
-                        alt={"Logo"}
-                        style={{ filter: 'brightness(0) invert(1)' }} 
-                    />
-                    <div className="absolute top-1 right-1 w-3 h-3 bg-red rounded-full"></div>
+                    <Link href={'/inbox'}>
+                        <Image
+                            src={'/statics/menu/message.png'}
+                            width={30}
+                            height={30} 
+                            alt={"Logo"}
+                            style={{ filter: 'brightness(0) invert(1)' }} 
+                        />
+                        <div className="absolute top-1 right-1 w-3 h-3 bg-red rounded-full"></div>
+                    </Link>
                 </div>
 
                 <div className="my-1 p-1 rounded-lg hover:bg-hover relative">
