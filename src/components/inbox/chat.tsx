@@ -35,7 +35,7 @@ const Chat: React.FC = () => {
 
             </div>
 
-            <div className="w-full absolute bottom-0 flex flex-row justify-between items-center gap-1 px-5 py-2">
+            <div className="w-full absolute bottom-0 flex flex-row justify-between items-center gap-2 px-5 py-2">
                 <div className="w-full">
                     <Input 
                     placeholder="write a message..."
