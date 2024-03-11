@@ -3,7 +3,7 @@ import Searchbar from "./single/search";
 
 const Topbar: React.FC = () => {
     return(
-        <div className="flex flex-row justify-around p-8">
+        <div className="flex flex-row justify-between py-8 px-24">
             <div className="flex flex-col">
                 <h1>Hello Dr.Champ</h1>
                 <h3 className="text-gray text-base">You are making great progress</h3>
