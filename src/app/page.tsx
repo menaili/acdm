@@ -3,6 +3,7 @@ import Mostcourses from "./components/home/mostcourses";
 import Coursestable from "./components/home/coursestable";
 import Learningtates from "./components/home/learningstates";
 import Onlinestories from "./components/home/onlinestories";
+import Trendingcourses from "./components/home/trendingcourses";
 
 export default function Home() {
   return (
@@ -18,9 +19,13 @@ export default function Home() {
         </div>
         <div>
           <Onlinestories />
-        </div>
-        
+        </div>   
+        <div className="w-full">
+          <Trendingcourses />
+        </div> 
       </div>
+
+      
     </main>
   );
 }

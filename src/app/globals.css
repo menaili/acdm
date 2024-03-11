@@ -43,3 +43,10 @@ span.ant-input-affix-wrapper.ant-input-affix-wrapper-lg.css-dev-only-do-not-over
 input.ant-input.ant-input-lg.css-dev-only-do-not-override-1uweeqc::placeholder {
   color: gray !important;
 }
+
+.swiper-wrapper {
+  width: 460px !important;
+}
+.swiper-slide {
+  width: 360px !important;
+}
