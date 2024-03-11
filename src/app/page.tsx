@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Mostcourses from "./components/home/mostcourses";
-import Coursestable from "./components/home/coursestable";
-import Learningtates from "./components/home/learningstates";
-import Onlinestories from "./components/home/onlinestories";
-import Trendingcourses from "./components/home/trendingcourses";
+import Mostcourses from "../components/home/mostcourses";
+import Coursestable from "../components/home/coursestable";
+import Learningtates from "../components/home/learningstates";
+import Onlinestories from "../components/home/onlinestories";
+import Trendingcourses from "../components/home/trendingcourses";
 
 export default function Home() {
   return (

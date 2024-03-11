@@ -24,14 +24,15 @@ const Sidebar: React.FC = () => {
                     />
                 </div>
 
-                <div className="my-1 p-1 rounded-lg hover:bg-hover">
+                <div className="my-1 p-1 rounded-lg hover:bg-hover relative">
                     <Image
-                        src={'/statics/menu/people.png'}
+                        src={'/statics/menu/message.png'}
                         width={30}
                         height={30} 
                         alt={"Logo"}
                         style={{ filter: 'brightness(0) invert(1)' }} 
                     />
+                    <div className="absolute top-1 right-1 w-3 h-3 bg-red rounded-full"></div>
                 </div>
 
                 <div className="my-1 p-1 rounded-lg hover:bg-hover relative">
@@ -47,7 +48,7 @@ const Sidebar: React.FC = () => {
 
                 <div className="my-1 p-1 rounded-lg hover:bg-hover">
                     <Image
-                        src={'/statics/menu/message.png'}
+                        src={'/statics/menu/people.png'}
                         width={30}
                         height={30} 
                         alt={"Logo"}
