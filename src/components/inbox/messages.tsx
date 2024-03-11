@@ -13,8 +13,8 @@ const Messages: React.FC = () => {
                 <Searchbar />
             </div>
 
-            <div className="flex flex-col">
-                <div className="flex items-center gap-3 w-auto bg-hover hover:bg-hover transition duration-300 ease-in-out px-6 py-2">
+            <div className="flex flex-col gap-1">
+                <div className="flex items-center gap-3 w-auto bg-hover hover:bg-hover transition duration-300 ease-in-out rounded-md mx-1 px-5 py-2">
                     <Image
                         src={'/profile/portrait-man-laughing.jpg'}
                         width={40}
@@ -28,7 +28,7 @@ const Messages: React.FC = () => {
                     </ul>
                 </div>
 
-                <div className="flex items-center gap-3 w-auto hover:bg-hover transition duration-300 ease-in-out px-6 py-2">
+                <div className="flex items-center gap-3 w-auto hover:bg-hover transition duration-300 ease-in-out rounded-md mx-1 px-5 py-2">
                     <Image
                         src={'/profile/portrait-man-laughing.jpg'}
                         width={40}
@@ -42,7 +42,7 @@ const Messages: React.FC = () => {
                     </ul>
                 </div>
 
-                <div className="flex items-center gap-3 w-auto hover:bg-hover transition duration-300 ease-in-out px-6 py-2">
+                <div className="flex items-center gap-3 w-auto hover:bg-hover transition duration-300 ease-in-out rounded-md mx-1 px-5 py-2">
                     <Image
                         src={'/profile/portrait-man-laughing.jpg'}
                         width={40}
@@ -56,7 +56,7 @@ const Messages: React.FC = () => {
                     </ul>
                 </div>
 
-                <div className="flex items-center gap-3 w-auto hover:bg-hover transition duration-300 ease-in-out px-6 py-2">
+                <div className="flex items-center gap-3 w-auto hover:bg-hover transition duration-300 ease-in-out rounded-md mx-1 px-5 py-2">
                     <Image
                         src={'/profile/portrait-man-laughing.jpg'}
                         width={40}
