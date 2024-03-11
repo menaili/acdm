@@ -77,7 +77,7 @@ const Sidebar: React.FC = () => {
                 </div>
             </div>
             <div>
-            <Image
+                <Image
                     src={'/profile/portrait-man-laughing.jpg'}
                     width={40}
                     height={40}
