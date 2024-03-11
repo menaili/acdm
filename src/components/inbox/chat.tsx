@@ -31,8 +31,28 @@ const Chat: React.FC = () => {
 
             </div>
 
-            <div>
+            <div className="flex flex-col gap-3 absolute bottom-14 w-full px-5">
+                <div className="flex flex-row items-end">
+                    <div className="bg-hover px-5 py-2 w-fit rounded-xl">
+                        <p>Hello Dr Champ, hoe are you?</p>
+                    </div>
+                    <p className="text-xs text-gray px-2">14:43</p>
+                </div>
 
+                <div className="flex flex-row-reverse items-end">
+                    <div className="bg-clickable px-5 py-2 w-fit rounded-xl">
+                        <p>Am good what about you</p>
+                    </div>
+                    <p className="text-xs text-gray px-2">14:51</p>
+                </div>
+
+                <div className="flex flex-row items-end">
+                    <div className="bg-hover px-5 py-2 w-fit rounded-xl">
+                        <p>am okay thank you!</p>
+                    </div>
+                    <p className="text-xs text-gray px-2">Just now</p>
+                </div>
+                
             </div>
 
             <div className="w-full absolute bottom-0 flex flex-row justify-between items-center gap-2 px-5 py-2">
