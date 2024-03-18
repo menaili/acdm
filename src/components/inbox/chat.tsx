@@ -55,16 +55,16 @@ const Chat: React.FC = () => {
                 
             </div>
 
-            <div className="w-full absolute bottom-0 flex flex-row justify-between items-center gap-2 px-5 py-2">
+            <div className="w-full absolute bottom-0 flex flex-row justify-between items-center gap-2 px-5 py-3">
                 <div className="w-full">
                     <Input 
                     placeholder="write a message..."
-                    style={{background: "#23273d",color: "white" , border: "none"}}
+                    style={{fontSize: "16px", background: "#23273d",color: "white" , border: "none"}}
                     />
                 </div>
                 
                 <div>
-                    <a className="text-md bg-clickable px-2 py-1 rounded-lg">
+                    <a className="text-sm bg-clickable px-2 py-2 rounded-lg">
                         Send
                     </a>
                 </div>
