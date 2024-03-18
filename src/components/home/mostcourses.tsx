@@ -8,16 +8,16 @@ const twoColors: ProgressProps['strokeColor'] = {
   
 const Mostcourses: React.FC = () => {
     return(
-        <div className="flex flex-col justify-between h-auto">
+        <div className="flex flex-col justify-between h-full">
             <div className="flex flex-row justify-between items-center my-4">
                 <h1 className="text-5xl">Most courses</h1>
                 <button className="text-sm bg-clickable px-2 py-1 rounded-lg">ENROLL NOW</button>
             </div>
 
-            <div className="flex flex-row justify-around gap-4 w-auto my-4">
+            <div className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-col xs:flex-col justify-around gap-4 w-full my-4">
                  
                 <div className="w-60 h-auto rounded-2xl bg-main hover:bg-hover hover:scale-110 mx-2 px-5 py-9 transition duration-300 ease-in-out">
-                    <div className="flex flex-row justify-between">
+                    <div className="flex flex-row h-auto justify-between">
                         <div>
                             <Image 
                                 src={"/courses/Figma.png"}

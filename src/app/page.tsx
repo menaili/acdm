@@ -7,8 +7,9 @@ import Trendingcourses from "../components/home/trendingcourses";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-row bg-white-500 gap-5 px-24">
-      <div className="flex flex-col w-fit">
+    <main className="flex min-h-screen 2xl:flex-row xl:flex-row lg:flex-col md:flex-col sm:flex-col xs:flex-col bg-white-500 gap-5 px-24">
+
+      <div className="flex flex-col h-full w-full">
         <Mostcourses />
         <Coursestable />
       </div>
@@ -24,8 +25,6 @@ export default function Home() {
           <Trendingcourses />
         </div> 
       </div>
-
-      
     </main>
   );
 }
